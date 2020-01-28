@@ -7,7 +7,7 @@ TOS,Train Operating System, is an operating system for intel x86 based PCs. It i
   * echo <msg>
   * ps
   * history
-  * !<number>
+  * !'<number>'
   * about
 * Controls an external model train via a serial line interface. The train application is created as seperate process with in the OS that handles 4 different configurations of train starting points with and without zamboni. The train is programmed to avoid the zamboni to reach the wagon, dock it and get it back to the starting point. 
   
